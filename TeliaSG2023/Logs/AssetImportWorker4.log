@@ -1,0 +1,260 @@
+Using pre-set license
+Built from '2021.3/evg/staging/82bb020e-b03b1330/draft-0' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16021 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+E:/文件/Project/2023SeriousGameProjectTeliaGroup/TeliaSG2023
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+65393
+Successfully changed project path to: E:/文件/Project/2023SeriousGameProjectTeliaGroup/TeliaSG2023
+E:/文件/Project/2023SeriousGameProjectTeliaGroup/TeliaSG2023
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [36456] Host "[IP] 192.168.1.106 [Port] 0 [Flags] 2 [Guid] 3007033245 [EditorId] 3007033245 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-2G41AH9R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [36456] Host "[IP] 192.168.1.106 [Port] 0 [Flags] 2 [Guid] 3007033245 [EditorId] 3007033245 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-2G41AH9R) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 79.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/文件/Project/2023SeriousGameProjectTeliaGroup/TeliaSG2023/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.3667
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004164 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 75.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.596 seconds
+Domain Reload Profiling:
+	ReloadAssembly (597ms)
+		BeginReloadAssembly (83ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (406ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (98ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (238ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (117ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014998 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\文件\Project\2023SeriousGameProjectTeliaGroup\TeliaSG2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image E:\文件\Project\2023SeriousGameProjectTeliaGroup\TeliaSG2023\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 90.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Adding registration method Yarn.Unity.Generated.ActionRegistration.RegisterActions
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Yarn.Unity.Actions:AddRegistrationMethod (System.Action`1<Yarn.Unity.IActionRegistration>) (at Library/PackageCache/dev.yarnspinner.unity@2.3.1/Runtime/Commands/Actions.cs:606)
+Yarn.Unity.Generated.ActionRegistration:AddRegisterFunction () (at YarnSpinner.Unity.SourceCodeGenerator/ActionRegistrationSourceGenerator/YarnActionRegistration-YarnSpinnerTests.CommandsInAnAssemblyDefinition.Generated.cs:12)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Library/PackageCache/dev.yarnspinner.unity@2.3.1/Runtime/Commands/Actions.cs Line: 606)
+
+Adding registration method Yarn.Unity.DefaultActions.RegisterActions
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Yarn.Unity.Actions:AddRegistrationMethod (System.Action`1<Yarn.Unity.IActionRegistration>) (at Library/PackageCache/dev.yarnspinner.unity@2.3.1/Runtime/Commands/Actions.cs:606)
+Yarn.Unity.DefaultActions:AddRegisterFunction () (at Library/PackageCache/dev.yarnspinner.unity@2.3.1/Runtime/Commands/DefaultActions.cs:18)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Library/PackageCache/dev.yarnspinner.unity@2.3.1/Runtime/Commands/Actions.cs Line: 606)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.255 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1256ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (1027ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (302ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (555ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (333ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4203 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (230.3 KB). Loaded Objects now: 4631.
+Memory consumption went from 158.2 MB to 158.0 MB.
+Total: 4.484000 ms (FindLiveObjects: 0.379200 ms CreateObjectMapping: 0.212000 ms MarkObjects: 3.686700 ms  DeleteObjects: 0.204700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 158193.076120 seconds.
+  path: Assets/2ndPrototypeResources/UIAsset
+  artifactKey: Guid(46f676c54c923fe468f5c9ac941bccc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2ndPrototypeResources/UIAsset using Guid(46f676c54c923fe468f5c9ac941bccc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d72ff35b0b77c37ea5c477cca06078f') in 0.015130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.620366 seconds.
+  path: Assets/2ndPrototypeResources/UIAsset/Pics
+  artifactKey: Guid(855fb3c5fa4705246ba0f78b332d4b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2ndPrototypeResources/UIAsset/Pics using Guid(855fb3c5fa4705246ba0f78b332d4b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7008952938d75abd2eaf8ea0695c20bf') in 0.007700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.586683 seconds.
+  path: Assets/2ndPrototypeResources/UIAsset/Panel_Button
+  artifactKey: Guid(a702c4be168baac41a2c0cef607a90eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2ndPrototypeResources/UIAsset/Panel_Button using Guid(a702c4be168baac41a2c0cef607a90eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3af89539ee0e9df0676eacdeb28ed02') in 0.006536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055896 seconds.
+  path: Assets/2ndPrototypeResources/UIAsset/Panel_Button/ChoiceButton.png
+  artifactKey: Guid(a9cb34d4305955045951ecae628a96b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2ndPrototypeResources/UIAsset/Panel_Button/ChoiceButton.png using Guid(a9cb34d4305955045951ecae628a96b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70424c6bd8a33a9bee10c1840f85e22e') in 0.103837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2ndPrototypeResources/UIAsset/Panel_Button/StartButton.png
+  artifactKey: Guid(82e82b95589611c4e9f14c65d7bd8433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2ndPrototypeResources/UIAsset/Panel_Button/StartButton.png using Guid(82e82b95589611c4e9f14c65d7bd8433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b198d9de4b07ed1c73580e752c2c52') in 0.024223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/2ndPrototypeResources/UIAsset/Panel_Button/HintDialogueBox.png
+  artifactKey: Guid(0b85dcdbd5fed744cbe4855fda904e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2ndPrototypeResources/UIAsset/Panel_Button/HintDialogueBox.png using Guid(0b85dcdbd5fed744cbe4855fda904e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21918e2bd36c349d20da056b97d02dc4') in 0.038457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/2ndPrototypeResources/UIAsset/Panel_Button/PostPanel.png
+  artifactKey: Guid(d0b074bbfe3b7484f8c22de156e71b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2ndPrototypeResources/UIAsset/Panel_Button/PostPanel.png using Guid(d0b074bbfe3b7484f8c22de156e71b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3222eeaa53558db6b408286d92442d12') in 0.046461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.630138 seconds.
+  path: Assets/2ndPrototypeResources/UIAsset/Avatars
+  artifactKey: Guid(8cb48e10f893f1345925d4f9e738e8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2ndPrototypeResources/UIAsset/Avatars using Guid(8cb48e10f893f1345925d4f9e738e8f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30c089eb8dee7d0f7e14a6cd2ed4301') in 0.007070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061343 seconds.
+  path: Assets/2ndPrototypeResources/UIAsset/Avatars/RaphaelAvatar.png
+  artifactKey: Guid(0251b7a2a6aac7b4b8cfc0477a7bbd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2ndPrototypeResources/UIAsset/Avatars/RaphaelAvatar.png using Guid(0251b7a2a6aac7b4b8cfc0477a7bbd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8586abd7ab3aa28f680410111df959db') in 0.013865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.540089 seconds.
+  path: Assets/2ndPrototypeResources/UIAsset/Opening
+  artifactKey: Guid(a2cdfa689c57c7140849547c521352f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2ndPrototypeResources/UIAsset/Opening using Guid(a2cdfa689c57c7140849547c521352f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3097ef04ed10db932e3227108d12e150') in 0.002357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.066807 seconds.
+  path: Assets/2ndPrototypeResources/UIAsset/Opening/DialogueLio.png
+  artifactKey: Guid(79649ffab7db97045870958bdfd38f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2ndPrototypeResources/UIAsset/Opening/DialogueLio.png using Guid(79649ffab7db97045870958bdfd38f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7427ff483055f6d9fb5f1b37aa0d587c') in 0.031267 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
