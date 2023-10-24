@@ -382,6 +382,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/YarnSpinner.Unity.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/YarnSpinnerTests.CommandsInAnAssemblyDefinition.ref.dll"
 -analyzer:"Library/PackageCache/dev.yarnspinner.unity@2.3.1/SourceGenerator/YarnSpinner.Unity.SourceCodeGenerator.dll"
+"Assets/Script/ReadMagic.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"

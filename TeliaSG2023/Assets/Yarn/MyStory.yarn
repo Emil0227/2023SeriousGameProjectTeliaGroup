@@ -1,21 +1,36 @@
 ﻿title: Start
 tags:
+position: -93,-2
 ---
+<<declare $magic = 0>>
 Narrator: Oh, hello!
     -> Hi, where am I?
+    <<set $magic = 1>>
         Narrator: You're in Unity!
             -> Oh.
-            <<jump Oh>>
+                <<jump Oh>>
             -> How did I get here?
-            <<jump Unity>>
+                <<jump Unity>>
 ===
 
 title: Oh
+position: 223,150
 ---
+<<set $magic = 2>>
 Narrator: Yeah, fun, right?
+ <<jump Node>>
 ===
 
 title: Unity
+position: 220,-86
 ---
+<<set $magic = 2>>
 Narrator: Someone read the Beginner's Guide!
+ <<jump Node>>
+===
+title: Node
+position: 539,-4
+---
+<<set $magic = 3>>
+It's over
 ===
